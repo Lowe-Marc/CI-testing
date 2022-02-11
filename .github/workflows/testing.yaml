@@ -1,4 +1,4 @@
-name: Testing
+name: Testing - renamed
 on:
   workflow_dispatch:
     branches:
