@@ -5,7 +5,11 @@ on:
   #     - qa
   #     - master
   #     - testing
-  push:
+  # push:
+  #   branches:
+  #     - master
+  pull_request:
+    types: [opened, reopened]
     branches:
       - master
 
