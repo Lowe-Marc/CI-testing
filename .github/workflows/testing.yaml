@@ -1,10 +1,13 @@
 name: Testing - renamed
 on:
-  workflow_dispatch:
+  # workflow_dispatch:
+  #   branches:
+  #     - qa
+  #     - master
+  #     - testing
+  push:
     branches:
-      - qa
       - master
-      - testing
 
 jobs:
   test-job:
